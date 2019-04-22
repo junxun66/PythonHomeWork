@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta name="referrer" content="no-referrer">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+{% for movie in movieList %}
+<li style="width: 800px;border-top: dashed 1px;list-style: none">
+   <div style="width: 100px;float: left"> <img width="100"  src="{{ movie.poster }}" ></div>
+    <div  style="width: 600px;">
+      <span style="display: block">{{ movie.name }}</span>
+ <span style="display: block">{{ movie.people }}</span>
+     <span style="display: block">{{ movie.type }}</span>
+             <span style="display: block;color: #e09015;">{{ movie.star }}</span>
+    </div>
+<div style="clear: both"></div>
+    </li>
+{% endfor %}
+</ul>
+</body>
+</html>
