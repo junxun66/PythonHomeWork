@@ -1,0 +1,5 @@
+pause==0.1.2
+python-dateutil==2.7.3
+selenium==3.14.0
+six==1.11.0
+urllib3==1.23python main.py --username 13646522950 --password Oywj15158705872 --url https://www.nike.com/cn/t/free-rn-5-%E7%94%B7%E5%AD%90%E8%BF%90%E5%8A%A8%E9%9E%8B-xmTc0r/AQ1289-004 --shoe-size 40
